@@ -1,3 +1,4 @@
+# 2020-12-17  
 # k8s-net-labs
 Kubernetes networking labs for KubeCon EU 2020 talk
 
@@ -19,4 +20,6 @@ Then to start the different environments, you can `cd` to the directory you want
 
 Once the cluster is up, you can SSH in with either `footloose ssh root@node0` (or `node1`, or `node2`) for the Flannel install or `footloose -c footloose-calico.yaml ssh root@calico-node0` (or `calico-node1`, or `calico-node2`) for the Calico install.
 
-For the Calico install, you bring up Calico with `kubectl apply -f calico-k3s.yaml` when on `calico-node0`.
+For the Calico install, you bring up Calico with `kubectl apply -f calico-k3s.yaml` when on `calico-node0`.  
+# URLs  
+https://www.youtube.com/watch?v=InZVNuKY5GY  
